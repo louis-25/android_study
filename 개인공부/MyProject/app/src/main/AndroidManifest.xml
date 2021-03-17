@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_rakun"
+        android:label="너굴앱"
+        android:roundIcon="@mipmap/ic_launcher_rakun_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".Game_main"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/> <!-- 키보드에 영향받지 않게하기 -->
+        <activity android:name=".MyQRCode.ScanQR" />
+        <activity android:name=".BreakOut_Game.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MyQRCode.CreateQR"
+            android:screenOrientation="portrait"/> <!-- qr코드 세로모드 -->
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            tools:replace="screenOrientation" />
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

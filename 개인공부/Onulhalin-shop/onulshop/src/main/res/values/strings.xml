@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">오늘할인\n사장님앱</string>
+
+
+    
+    <string name="hot">Hot</string>
+    <string name="favorite">Favorite</string>
+    <string name="aa">판매중</string>
+    <string name="bb">구매중</string>
+    <string name="cc">구매완료</string>
+
+
+    <string name="large_text">large_text
+        상품설명 설명설명
+    </string>
+
+
+
+    <string-array name="array_title">
+        <item>내가파는상품 1</item>
+        <item>내가파는상품 2</item>
+        <item>내가파는상품 3</item>
+    </string-array>
+
+    <string-array name="array_content">
+        <item>내가 파는 상품 상세 설명 \n 가격 : 50000원 \n수량 : 5개</item>
+        <item>내가 파는 상품 상세 설명 \n 가격 : 50000원 \n수량 : 5개</item>
+        <item>내가 파는 상품 상세 설명 \n 가격 : 50000원 \n수량 : 5개</item>
+    </string-array>
+
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+</resources>
