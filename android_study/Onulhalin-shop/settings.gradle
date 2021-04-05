@@ -1,0 +1,2 @@
+include ':onulshop', ':fragmentation', ':fragmentation_core'
+project(':fragmentation_core').projectDir = new File('fragmentation_core')

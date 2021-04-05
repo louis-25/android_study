@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "215172421333",
+    "firebase_url": "https://onulhalin.firebaseio.com",
+    "project_id": "onulhalin",
+    "storage_bucket": "onulhalin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215172421333:android:5a871a67538ddafa",
+        "android_client_info": {
+          "package_name": "me.onulhalin.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215172421333-h3k9jk7796rok7lrc1o18h7msticdpsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZWqSMtZf7qvcdb5I9wq0IepYMUj1ifyw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
